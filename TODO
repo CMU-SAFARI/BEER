@@ -1,0 +1,10 @@
+TODO - list of outstanding tasks for BEER:
+
+Improvements:
++ Thorough testing of different true-/anti-cell layout cases
++ Performance optimization
+	+ Z3 tweaks
+    + Using GF(2) data types / libraries
+
+New features:
++ Wider range of ECC schemes (e.g., BCH, Reed-Solomon)

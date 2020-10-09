@@ -1,0 +1,27 @@
+z3_add_component(sat_smt
+  SOURCES
+    array_axioms.cpp
+    array_internalize.cpp
+    array_model.cpp
+    array_solver.cpp
+    atom2bool_var.cpp
+    ba_internalize.cpp
+    ba_solver.cpp
+    bv_ackerman.cpp
+    bv_internalize.cpp
+    bv_solver.cpp
+    euf_ackerman.cpp
+    euf_internalize.cpp
+    euf_invariant.cpp
+    euf_model.cpp
+    euf_proof.cpp
+    euf_solver.cpp
+    sat_th.cpp
+    xor_solver.cpp
+  COMPONENT_DEPENDENCIES
+    sat
+    ast
+    euf
+    smt_params
+)
+
